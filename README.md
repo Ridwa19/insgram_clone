@@ -36,27 +36,6 @@ Storage: Cloudinary for image uploads
 
 Deployment: Vercel (Frontend) & Render (Backend)
 
-📂 Project Structure
-
-📦 instagram-clone
- ┣ 📂 client (Frontend - React)
- ┃ ┣ 📂 src
- ┃ ┃ ┣ 📂 components
- ┃ ┃ ┣ 📂 pages
- ┃ ┃ ┣ 📜 App.js
- ┃ ┃ ┣ 📜 index.js
- ┃ ┃ ┗ 📜 styles.css
- ┃ ┗ 📜 package.json
- ┣ 📂 server (Backend - Node/Express)
- ┃ ┣ 📂 models
- ┃ ┣ 📂 routes
- ┃ ┣ 📂 controllers
- ┃ ┣ 📜 server.js
- ┃ ┗ 📜 package.json
- ┣ 📜 .env
- ┣ 📜 README.md
- ┗ 📜 .gitignore
-
 🚀 Installation & Setup
 
 1️⃣ Clone the repository
