@@ -1,77 +1,83 @@
-<<<<<<< HEAD
-﻿# Instagram-mern
-This Instagram clone is made with React, Node, MongoDB .
+Instagram Clone (MERN Stack)
+This is an Instagram clone built using the MERN stack (MongoDB, Express, React, Node.js).
 
+Live Demo 🚀
 
-## Prerequisites
-Make sure you have installed all of the following prerequisites on your development machine:
-* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
-* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.
+Prerequisites
+Ensure you have the following installed on your development machine:
 
+Git - Download & Install Git.
+Note: OSX and Linux machines typically come with Git pre-installed.
 
-## Cloning The GitHub Repository
-The recommended way to get this repo clone is to use git to directly clone the repository:
+Node.js - Download & Install Node.js (includes npm).
+If you encounter any issues, you can use this GitHub Gist for alternative installation steps.
 
-```bash
-$ git clone https://github.com/nisabmohd/Instagram-mern.git
-```
+Cloning the Repository
+To clone this repository, use the following Git command:
 
-## Environment variables React setup 
-create .env file in frontend/src
-```
+bash
+Copy
+Edit
+git clone https://github.com/nisabmohd/Instagram-mern.git
+Environment Variables
+React Setup (Frontend)
+Create a .env file inside the frontend/src directory and add the following variables:
+
+env
+Copy
+Edit
 REACT_APP_API_URL=http://localhost:8000
 REACT_APP_GOOGLE_OAUTH_REDIRECT_URL=http://localhost:8000/auth/google/oauth
-REACT_APP_GOOGLE_CLIENT_ID= {google auth client id}
+REACT_APP_GOOGLE_CLIENT_ID={google auth client id}
+Node Setup (Backend)
+Create a .env file inside the backend directory and add the following variables:
 
-```
-## Environment variables Node setup 
-create .env file in backend
-```
-PORT = {port number}
-Mongo_URI= {your mongo uri}
-JWT_Secret= {jwt secret}
-JWT_Refresh_Secret= {jwt refresh secret}
+env
+Copy
+Edit
+PORT={port number}
+Mongo_URI={your mongo uri}
+JWT_Secret={jwt secret}
+JWT_Refresh_Secret={jwt refresh secret}
 CLIENT_URL=http://localhost:3000
 email=userzyx01@xyz.com
 password=1skjsnksdsd
-clientid={google auth cclientid}
+clientid={google auth client id}
 clientsecret={google auth client secret}
 redirect_url=http://localhost:8000/auth/google/oauth
+Running the Application
+To start the application, follow these steps:
 
-```
-
-
-## Running Your Application
-
-open terminal/bash in this repo and enter below commands to start the application
-
-&#8594; To start the server
-```bash
-$ cd frontend
+Start the Backend (Server)
+Open a terminal and navigate to the backend directory.
+Run the following commands:
+bash
+Copy
+Edit
+$ cd backend
 $ node server.js
-```
-
-&#8594; To start the client app
-```bash
-$ cd client
+Start the Frontend (Client)
+Open a terminal and navigate to the frontend directory.
+Run the following commands:
+bash
+Copy
+Edit
+$ cd frontend
 $ npm start
-```
-
-
-
-* Your client application should run on port 3000 with the *development* environment configuration, so in your browser just go to [http://localhost:3000](http://localhost:3000)
-
-* Your server application should run on port 8000, so in your browser just go to [http://localhost:8000](http://localhost:3000)
-
-<br>
-
-<img src="./images/login.png">
-<img src="./images/home.png">
-<img src="./images/story.png">
-<img src="./images/chat.png">
-<img src="./images/explore.png">
-<img src="./images/profile.png">
-=======
-# instgram_clone
-building and deploy instgram web using mern tack
->>>>>>> b66eefba1107e74de8cd2a3b927de95e7d927a7a
+The client application will run on http://localhost:3000.
+The server application will run on http://localhost:8000.
+Screenshots
+Login Page
+<img src="./images/login.png" alt="Login Page" width="600">
+Home Page
+<img src="./images/home.png" alt="Home Page" width="600">
+Stories
+<img src="./images/story.png" alt="Stories" width="600">
+Chat
+<img src="./images/chat.png" alt="Chat" width="600">
+Explore
+<img src="./images/explore.png" alt="Explore" width="600">
+Profile
+<img src="./images/profile.png" alt="Profile" width="600">
+Deployment
+Frontend Live Link: Frontend App
