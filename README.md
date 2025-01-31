@@ -40,7 +40,7 @@ Deployment: Vercel (Frontend) & Render (Backend)
 
 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/instagram-clone.git
+git clone https://github.com/ridwa19/instagram-clone.git
 cd instagram-clone
 
 2️⃣ Install dependencies
